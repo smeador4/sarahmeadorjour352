@@ -7,6 +7,14 @@ BODY {
     font-weight:400;
 }
 
+/*container style*/
+#container{
+    width:100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
 /*banner name at top*/
 #name {
     font-size:3em;
@@ -70,12 +78,14 @@ BODY {
     margin-right: 0px;
 }
 
+/*paragraph style*/
 .description {
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 0px;
     margin-right: 0px;
 }
+
 /*list contents*/
 ul {
     font-size: 1em;
@@ -84,10 +94,12 @@ ul {
     text-align: center;
 }
 
+/*contact info*/
 ul.menu {
     display: inline;
 }
 
+/*education style*/
 #degrees {
     margin-top: 5px;
     margin-bottom: 0px;
@@ -95,9 +107,18 @@ ul.menu {
     margin-right: 0px;
 }
 
+/*skills style*/
 #do {
     margin-top: 5px;
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
+}
+
+/*mission statement style*/
+.top {
+    width: 60%;
+    min-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 30px;
 }
