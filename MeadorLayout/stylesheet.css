@@ -1,0 +1,19 @@
+#content {
+    margin: 0 auto;
+    width: 900px;
+}
+
+#byline {
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    }
+
+h1 {
+    font-family: Helvetica, sans-serif;
+}
+
+p {
+    font-family: Georgia, serif;
+    font-size: 13px;
+}
