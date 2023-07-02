@@ -36,3 +36,9 @@ img {
     color:grey;
     font-size: 12px;
 }
+
+.footer {
+    color: white;
+    font-size: 12px;
+    font-family:'Montserrat', sans-serif;
+}
