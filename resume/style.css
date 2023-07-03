@@ -95,8 +95,9 @@ ul {
 }
 
 /*contact info*/
-ul.menu {
+.menu li {
     display: inline;
+    list-style-type: none;
 }
 
 /*education style*/
