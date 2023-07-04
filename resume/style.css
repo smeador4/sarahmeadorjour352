@@ -2,69 +2,64 @@
 
 BODY {
     font-family: 'Open Sans', arial, sans-serif;
-    font-size: 1em;
-    color:#444;
+    font-size: 1.1em;
+    color: #1D3C6E;
     font-weight:400;
 }
 
 /*container style*/
 #container{
-    width:100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding-bottom: 50px;
 }
 
 /*banner name at top*/
 #name {
     font-size:3em;
-    text-transform:uppercase;
     text-align:center;
-    color:#33485e;
-    border-bottom: 1px solid #33485e;
-    width: 60%;
+    color:white;
+    background-color:#86AFF0;
+    width: 100%;
     min-width: 300px;
     margin: 0 auto;
+    padding: 5px;
 }
 
 /*title*/
 #title {
-    text-transform:uppercase;
-    font-size: 1.5em;
+    font-size: 1.8em;
     font-weight: 600;
-    color:#33485e;
+    color:white;
+    background-color:#86AFF0;
+    width: 100%;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
+    padding: 5px;
 }
 
 /*headers*/
 .sectionheader {
-    font-size: 1.5em;
-    text-transform:uppercase;
-    background-color:#33485e;
-    color:#fff;
+    font-size: 2em;
+    text-align:center;
+    color:white;
+    background-color:#86AFF0;
     font-weight:400;
-    margin-bottom: 10px;
-    margin-top: 20px;
-    margin-left: 0px;
-    margin-right: 0px;
-    width: 70%;
+    width: 100%;
     min-width: 300px;
+    margin: 10px;
 }
 
 /*job titles*/
 .jobtitle {
-    font-weight:600;
-    font-size: 1.5em;
+    font-weight:bold;
+    font-size: 1.3em;
+    color: #1D3C6E;
 }
 
 /*job organizations*/
 .organization {
     font-weight:400;
     font-size: 1.25em;
+    color: #1D3C6E;
 }
 
 /*job dates*/
@@ -76,6 +71,7 @@ BODY {
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
+    color: #1D3C6E;
 }
 
 /*paragraph style*/
@@ -84,6 +80,7 @@ BODY {
     margin-bottom: 10px;
     margin-left: 0px;
     margin-right: 0px;
+    color: #1D3C6E;
 }
 
 /*list contents*/
@@ -118,8 +115,13 @@ ul {
 
 /*mission statement style*/
 .top {
-    width: 60%;
     min-width: 300px;
     margin: 0 auto;
-    margin-bottom: 30px;
+}
+
+.bi {
+    color:#86AFF0;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
 }
